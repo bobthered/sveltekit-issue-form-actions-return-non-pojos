@@ -4,6 +4,8 @@ This is a MVP trying to replicate issues associated with issue [#8523](https://g
 
 ## Steps
 
-1. Initialize project with `npm create svelte@latest new-project`
-2. Install dependencies with `npm i`
-# sveltekit-issue-form-actions-return-non-pojos
+| #   | Description                                                    | Working | Note                                              |
+| --- | -------------------------------------------------------------- | ------- | ------------------------------------------------- |
+| 1   | Initialize project with `npm create svelte@latest new-project` | ✔️      |                                                   |
+| 2   | Install dependencies with `npm i`                              | ✔️      |                                                   |
+| 3   | Add +page.server.js form action                                | ❌      | Vite showed `new dependencies optimized: devalue` |
